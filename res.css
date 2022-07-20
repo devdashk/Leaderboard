@@ -1,0 +1,63 @@
+@media (max-width: 575.98px) {
+
+    .container{
+        width: 100%;
+    }
+
+    .container.navWrapper {
+        flex-wrap: wrap;
+        padding: 15px 0px;
+    }
+    .logo{
+        
+        margin: auto;
+    }
+
+    .navLinks{
+        flex-basis: 80%;
+        justify-content: flex-end;
+    }
+    
+
+    .people{
+        flex-basis: 48%;
+    }
+    .people h4{
+        font-size: 13px;
+    }
+    .blogWrapper{
+        flex-wrap: wrap;
+    }
+    .blogText p{
+        font-size: 15px;
+    }
+    .blogText span{
+        font-size: 12px;
+    }
+    .blogText a{
+        font-size: 12px;
+    }
+    .blogWrapper2{
+        margin-top: -10px;
+    }
+    .singleBlog{
+        flex-basis: 70%;
+        margin-bottom: 20px;
+        flex-direction: column;
+        
+    }
+
+    .course{
+        flex-wrap: wrap;
+    }
+    .singleCourse{
+        flex-basis: 52%;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+    .singleCourse:last-child{
+
+        margin: auto;
+    }
+}
+
